@@ -4,7 +4,7 @@
 
 In modern DevOps and cloud engineering, **Infrastructure as Code (IaC)** has become a crucial concept to manage cloud resources efficiently. Terraform, a popular IaC tool, simplifies infrastructure automation across multiple cloud providers like **AWS, Azure, GCP, and OpenStack** using a **universal configuration language.**
 
-This article is part of the **Terraform Zero to Hero** series, aimed at helping DevOps and cloud engineers master Terraform from the ground up. If you're new to Terraform, you don't need prior knowledge—this guide is structured to help you **understand, install, and use Terraform** effectively.
+This article is part of the **Terraform** series, aimed at helping DevOps and cloud engineers master Terraform from the ground up. If you're new to Terraform, you don't need prior knowledge—this guide is structured to help you **understand, install, and use Terraform** effectively.
 
 ---
 
@@ -106,7 +106,7 @@ If you **cannot install Terraform** on your local machine (e.g., office laptops 
 
 **Steps to use GitHub CodeSpaces:**
 
-**1.**	Fork the **Terraform Zero to Hero** repository on GitHub.
+**1.**	Fork the **Terraform** repository on GitHub.
 
 **2.**	Click **"Code" > "Open in CodeSpaces".**
 
