@@ -2,7 +2,7 @@
 
 **Introduction**
 
-Welcome to **Day 2** of the **Terraform Zero to Hero series**. In the previous session (**Day 1**), we covered the fundamentals of **Infrastructure as Code (IaC)** and the importance of **Terraform** in automating cloud infrastructure. We also learned how to **install Terraform on different operating systems**, configure it for **AWS**, and create a **basic EC2 instance**.
+Welcome to **Day 2** of the **Terraform series**. In the previous session (**Day 1**), we covered the fundamentals of **Infrastructure as Code (IaC)** and the importance of **Terraform** in automating cloud infrastructure. We also learned how to **install Terraform on different operating systems**, configure it for **AWS**, and create a **basic EC2 instance**.
 
 Today, we will dive deeper into some of the most **critical Terraform concepts**:
 
