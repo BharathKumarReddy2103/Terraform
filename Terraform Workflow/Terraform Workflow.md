@@ -185,25 +185,6 @@ resource "aws_instance" "web" {
 }
 ```
 
-**variables.tf (Define Input Variables)**
-
-```bash
-variable "aws_region" {
-  default = "us-east-1"
-}
-
-variable "instance_type" {
-  default = "t2.micro"
-}
-```
-
-**outputs.tf (Output Public IP)**
-
-```bash
-output "public_ip" {
-  value = aws_instance.web.public_ip
-}
-```
 
 
 
