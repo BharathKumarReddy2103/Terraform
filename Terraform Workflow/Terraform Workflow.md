@@ -205,19 +205,6 @@ output "public_ip" {
 }
 ```
 
-**3. Run Terraform Commands**
-
-**Step 1: Initialize Terraform**
-
-```bash
-terraform init
-```
-
-**Step 2: Validate Configuration**
-
-```bash
-terraform validate
-```
 
 
 
