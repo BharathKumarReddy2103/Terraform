@@ -143,47 +143,7 @@ aws_instance.web: Destruction complete
 Destroy complete! Resources: 1 destroyed.
 ```
 
-**Real-World Example: Deploying a Web Application on AWS**
 
-Imagine you work at an e-commerce company, and they want to automate the deployment of a web application using AWS. You can use Terraform to deploy an EC2 instance with Nginx.
-
----
-
-**Step-by-Step Terraform Implementation**
-
-**1. Install Terraform**
-
-   - Install Terraform on your local machine or CI/CD server:
-
-```bash
-sudo apt update && sudo apt install terraform -y
-```
-
-**2. Write Terraform Configuration Files**
-
-**main.tf (Define AWS EC2 Instance)**
-
-```bash
-provider "aws" {
-  region = "us-east-1"
-}
-
-resource "aws_instance" "web" {
-  ami           = "ami-123456"
-  instance_type = "t2.micro"
-
-  user_data = <<-EOF
-              #!/bin/bash
-              apt update -y
-              apt install -y nginx
-              systemctl start nginx
-              EOF
-
-  tags = {
-    Name = "Terraform-Web-Server"
-  }
-}
-```
 
 
 
