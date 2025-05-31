@@ -219,19 +219,7 @@ terraform init
 terraform validate
 ```
 
-**Step 3: Preview Changes**
 
-```bash
-terraform plan
-```
-
-**Step 4: Apply Changes**
-
-```bash
-terraform apply -auto-approve
-```
-
-   - This will deploy an EC2 instance with Nginx installed.
 
 
 
