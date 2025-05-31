@@ -233,24 +233,6 @@ terraform apply -auto-approve
 
    - This will deploy an EC2 instance with Nginx installed.
 
-**Step 5: Get Public IP and Access Web Server**
 
-```bash
-terraform output public_ip
-```
-
-   - Open the IP in a browser:
-
-```bash
-http://<public_ip>
-```
-
-   - You should see the Nginx default page.
-     
-**Step 6: Destroy Infrastructure (Cleanup)**
-
-```bash
-terraform destroy -auto-approve
-```
 
 
